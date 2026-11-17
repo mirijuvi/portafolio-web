@@ -11,7 +11,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
         <div class="flex gap-4 text-sm">
           <RouterLink to="/galeria" class="hover:underline">Galería</RouterLink>
-          <RouterLink to="/artista" class="hover:underline">El artista</RouterLink>
+          <RouterLink to="/artista" class="hover:underline">Rafael Ballester Duet</RouterLink>
           <RouterLink to="/exposicion" class="hover:underline">La exposición</RouterLink>
         </div>
       </nav>
