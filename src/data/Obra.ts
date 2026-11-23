@@ -1,9 +1,9 @@
 
 export interface Obra {
   id: number
-  titulo?: string
-  descripcion?: string
+  titulo: string
+  descripcion: string
   imagen: string
   tecnica: string
-  año?: number
+  anio: number
 }

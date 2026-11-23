@@ -2,9 +2,10 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '@/pages/home/Home.vue'
 import MainLayout from '@/layouts/mainLayout.vue'
 import Artista from '@/pages/artista/Artista.vue'
-import Expo from '@/pages/exposición/Expo.vue'
+import Exposicion from '@/pages/exposicion/Expo.vue'
 import ObraDetalle from '@/pages/galeria/ObraDetalle.vue'
 import Galeria from '@/pages/galeria/Galeria.vue'
+import Expo from '@/pages/exposicion/Expo.vue'
 
 
 export const router = createRouter({
