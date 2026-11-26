@@ -39,7 +39,7 @@ import { Card } from '@/components/ui/card'
 
     <h2 class="mt-10 text-xl font-bold md:text-2xl">Créditos</h2>
     <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      <div v-for="c in creditos" :key="c.rol" class="border-l-2 pl-3">
+      <div v-for="c in creditos" class="border-l-2 pl-3">
         <p class="text-sm text-muted-foreground">{{ c.rol }}</p>
         <p class="font-medium">{{ c.nombre }}</p>
       </div>
