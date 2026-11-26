@@ -6,8 +6,6 @@ import { Card } from '@/components/ui/card'
 </script>
 
 <template>
-    <h1>Página de la exposición</h1>
-
      <section class="mx-auto max-w-6xl px-4 py-6 md:px-6 md:py-10">
     <h1 class="text-2xl font-bold md:text-4xl">{{ exposicion.titulo }}</h1>
 
