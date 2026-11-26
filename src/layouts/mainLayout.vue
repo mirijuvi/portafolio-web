@@ -42,7 +42,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <h2 class="text-base font-bold">Explora</h2>
       <RouterLink to="/galeria" class="text-sm hover:underline">Galería</RouterLink>
       <RouterLink to="/artista" class="text-sm hover:underline">Rafael Ballester Duet</RouterLink>
-      <RouterLink to="/exposicion" class="text-sm hover:underline">La exposición</RouterLink>
+      <RouterLink to="/exposicion" class="text-sm hover:underline">Exposició</RouterLink>
     </div>
 
     <iframe

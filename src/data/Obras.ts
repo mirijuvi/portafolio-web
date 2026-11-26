@@ -1,24 +1,42 @@
-
 import type { Obra } from '@/data/Obra'
-import obra1 from '@/assets/obras/obra-1.jpg'
-import obra2 from '@/assets/obras/obra-2.jpg'
+
 const base = import.meta.env.BASE_URL
 
 export const obras: Obra[] = [
+  
   {
     id: 1,
     titulo: 'Oliveres',
     descripcion: 'Descripción de la obra 1.',
-    imagen: `${base}fotos-obras/obra-110.jpg`,
+    imagen:`${base}fotos-obras/obra-119.JPG`,
     tecnica: 'Acuarela',
-    anio: 2018,
   },
   {
     id: 2,
-    titulo: 'Título de la obra 2',
+    titulo: 'Campanar',
     descripcion: 'Descripción de la obra 2.',
-    imagen: `${base}fotos-obras/obra-113.jpg`,
+    imagen: `${base}fotos-obras/obra-113.JPG`,
     tecnica: 'Acuarela',
-    anio: 2022,
+  },
+  {
+    id: 3,
+    titulo: 'Casc Antic',
+    descripcion: 'Descripción de la obra 3.',
+    imagen:`${base}fotos-obras/obr-114.JPG`,
+    tecnica: 'Acuarela',
+  },
+  {
+    id: 4,
+    titulo: 'Des de les Santes',
+    descripcion: 'Descripción de la obra 3.',
+    imagen:`${base}fotos-obras/obra-110.JPG`,
+    tecnica: 'Acuarela',
+  },
+    {
+    id: 5,
+    titulo: 'Plaça del mercat',
+    descripcion: 'Descripción de la obra 3.',
+    imagen:`${base}fotos-obras/obra-118.JPG`,
+    tecnica: 'Acuarela',
   },
 ]

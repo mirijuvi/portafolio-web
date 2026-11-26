@@ -5,5 +5,4 @@ export interface Obra {
   descripcion: string
   imagen: string
   tecnica: string
-  anio: number
 }

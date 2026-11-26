@@ -3,7 +3,7 @@ import { artista } from '@/data/artista'
 import { obras } from '@/data/Obras'
 
 // Cambia los ids por las obras que quieras mostrar
-const destacadas = obras.filter((o) => [1, 4].includes(o.id))
+const destacadas = obras.filter((o) => [1, 2, 5].includes(o.id))
 </script>
 
 <template>
@@ -23,7 +23,7 @@ const destacadas = obras.filter((o) => [1, 4].includes(o.id))
       <img
         :src="obra.imagen"
         :alt="obra.titulo"
-        class="w-full rounded-lg bg-muted object-contain"
+        class="w-full object-contain"
       />
       <p class="mt-1 text-xs text-muted-foreground">
         {{ obra.titulo }}
