@@ -47,7 +47,7 @@ export const obras: Obra[] = [
     tecnica: 'Acuarela',
   },
    {
-    id: ,
+    id: 6,
     titulo: 'Plaça del mercat',
     descripcion: 'Descripción de la obra 3.',
     imagen:`${base}fotos-obras/obra-118.JPG`,
